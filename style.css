@@ -23,7 +23,7 @@ overflow-x: hidden;
   display: flex;
   align-items: center;
   float: right;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 .navbar ul li {
   display: inline-block;
@@ -42,12 +42,22 @@ overflow-x: hidden;
 }
 
 #search {
-  margin-left: 20px;
+  margin-left: 25px;
   height: 30px;
   width: 120px;
   border-radius: 25px;
   border: none;
   outline: none;
+}
+
+.searchbutton{
+    border: none;
+    outline: none;
+    padding: 4px 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: -25px;
+    cursor: pointer;
 }
 
 /* Header Styling End */
@@ -474,7 +484,13 @@ overflow-x: hidden;
   border-radius: 25px;
   border: none;
   outline: none;
-  padding-top: 5px;
+ padding-top: 5px;
+ padding-left: 20px;
+}
+
+::placeholder{
+    font-family: "Open Sans", sans-serif;
+
 }
 
 .subscription button {
